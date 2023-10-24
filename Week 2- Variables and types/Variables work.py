@@ -75,7 +75,7 @@ characters_except_last = surname[:-1]
 print(characters_except_last)
 
 primes = [2, 3, 5, 7, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47]
-first_four_primes = primes[:4]  # Slice from the beginning to the fourth element (0 to 3)
+first_four_primes = primes[:4]
 print(first_four_primes)
 
 names = ["John", "Sarah", "Michael", "Emily", "Daniel"]
