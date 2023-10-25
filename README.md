@@ -6,3 +6,5 @@ Update- Completed all the basic tasks of week 1 showing the usage of calling fun
 Update 2- Completed all the tasks on week 2, this uses some basic augmented expressions to do basic calculation, introduces data types such as boolean and string, also had an introduction to indexing and splicing and also lists and their uses.
 
 Update 3- Completed all the tasks on week 3, this practicals main focus was on control statements and the use of boolean expressions which python uses to determine true or false, also had a lot of focus on loops and the use of for and while.
+
+Update 4- Completed all the tasks on week 4, the main focus of this practical was importing and defining functions for more specific uses we may have within our code, we also looked at lambda expressions and what they do (lambda expressions are a bit tricky and confusing :/ ).
