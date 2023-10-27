@@ -42,3 +42,14 @@ print("Average is", utils.average([10, 23, 30]))
 print("Another average is", utils.average([10.2, 8.8, 2.6]))
 
 
+from utils import average
+
+print("Average is", average([10, 23, 30]))
+print("Another average is", average([10.2, 8.8, 2.6]))
+
+
+import math
+print(dir(math))
+
+
+print("The import search path for this program is", sys.path)
