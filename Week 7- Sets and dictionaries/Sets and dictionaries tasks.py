@@ -39,5 +39,25 @@ if staff.issuperset(managers):
     print("All managers are staff members")
 
 
-help(frozenset)
+#print(help(frozenset))
 
+
+stock = {}
+stock["pear"] = 50
+if "apple" in stock:
+    stock["apple"] += 1
+else:
+    stock["apple"] = 1
+stock["kiwi"] = 10
+
+#help(dict)
+
+removed_pair = stock.popitem()
+print("Removed:", removed_pair)
+print("Updated stock:", stock)
+
+
+import math
+roots = {n: math.sqrt(n) for n in range(1, 26)}
+for num, sqrt in roots.items():
+    print(f"The square root of {num} is {sqrt}")
