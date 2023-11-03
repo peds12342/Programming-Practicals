@@ -1,0 +1,8 @@
+with open("info.txt", "w") as file:
+    file.write("This is a text file\n")
+    file.write("It contains multiple lines of text\n")
+    file.write("This is the final line within the file\n")
+
+with open("info.txt", "r") as file:
+    contents = file.read()
+    print(contents)
